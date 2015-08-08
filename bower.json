@@ -1,0 +1,19 @@
+{
+  "name": "ng-decorator",
+  "version": "",
+  "description": "Angular module decorator, backported from 1.4",
+  "keywords": [
+    "angular",
+    "module",
+    "decorator"
+  ],
+  "homepage": "https://github.com/ex-machine/ng-decorator",
+  "license": "MIT",
+  "ignore": [],
+  "main": [
+    "./ng-decorator.js"
+  ],
+  "dependencies": {
+    "angular": "^1.0"
+  }
+}

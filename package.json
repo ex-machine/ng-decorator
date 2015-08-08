@@ -1,0 +1,24 @@
+{
+  "name": "ng-decorator",
+  "version": "",
+  "description": "Angular module decorator, backported from 1.4",
+  "homepage": "https://github.com/ex-machine/ng-decorator",
+  "license": "MIT",
+  "main": "ng-decorator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ex-machine/ng-decorator.git"
+  },
+  "//": [
+    "npm run version -- 1.0.0"
+  ],
+  "scripts": {
+    "build": "uglifyjs ng-decorator.js -o ng-decorator.min.js --mangle --compress",
+    "version": "mversion -n -m %s"
+  },
+  "devDependencies": {
+    "mversion": "^1.10.0",
+    "uglify-js": "^2.4.24"
+  },
+  "dependencies": {}
+}
