@@ -1,4 +1,5 @@
 (function (angular) {
+	'use strict';
 	var moduleOrig = angular.module;
 	angular.module = function () {
 		var moduleInstance = moduleOrig.apply(this, arguments);
