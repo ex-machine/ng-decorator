@@ -1,6 +1,6 @@
 {
   "name": "ng-decorator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Angular module decorator, backported from 1.4",
   "keywords": [
     "angular",
